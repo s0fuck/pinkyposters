@@ -1,0 +1,14 @@
+.footer__columns {
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@media all and (max-width: 630px) {
+  .footer__columns {
+    flex-direction: column;
+  }
+}

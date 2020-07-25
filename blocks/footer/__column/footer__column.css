@@ -1,0 +1,14 @@
+@import url(./_content/footer__column_content_copyright.css);
+@import url(./_content/footer__column_content_info.css);
+@import url(./_content/footer__column_content_social.css);
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 630px) {
+  .footer__column:nth-child(1) {
+    order: 1;  /* у остальных flex-элементов order: 0; */
+  }
+}

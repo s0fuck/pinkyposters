@@ -1,0 +1,14 @@
+.footer__column_content_copyright {
+  flex-basis: 300px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+@media all and (max-width: 630px) {
+  .footer__column_content_copyright {
+    flex-basis: 0;
+    min-width: 350px;
+    /* min-width: 350px; */
+  }
+}
